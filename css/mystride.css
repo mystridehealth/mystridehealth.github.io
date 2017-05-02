@@ -8,8 +8,13 @@ body {
   max-width: 1200px;
 }
 
+a {
+  color: inherit;
+  transition: all ease 0.12s;
+}
+
 a:hover, a:focus {
-  color: #45B2E5;
+  opacity: 0.7;
 }
 
 p {
@@ -25,11 +30,15 @@ hr {
 }
 
 input[type="email"] {
-  width: 380px;
+  width: 320px;
   background: rgba(238,234,227,0.20);
   border: 1px solid #EEEAE3;
   border-radius: 2px;
   color: #091C27;
+}
+
+input[type="email"]:focus {
+  border: 1px solid #EEEAE3;
 }
 
 input[type="email"]::-webkit-input-placeholder {
@@ -44,8 +53,21 @@ input[type="email"]::-moz-placeholder {
 
 button {
   background-color: #A5AEF6;
-  width: 380px;
-  letter-spacing: 0.03em;
+  width: 320px;
+  letter-spacing: 0.05em;
+  border: none;
+  font-size: 0.9em;
+  /*font-weight: 300;*/
+  border-radius: 2px;
+  color: #FFF;
+  text-transform: inherit;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transition: all ease 0.12s;
+}
+
+button:hover {
+  color: #FFF;
+  opacity: 0.85;
 }
 
 form {
@@ -53,7 +75,7 @@ form {
 }
 
 .card {
-  background: url(/images/app@2x.png) no-repeat right bottom, #FFF;
+  background: url(/images/card-bg@2x.png) no-repeat right bottom, #FFF;
   background-size: 50%;
   border-radius: 12px;
   margin: 3em auto;

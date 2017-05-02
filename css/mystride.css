@@ -1,0 +1,94 @@
+body {
+  background-color: #FBF7F0;
+  color: #091C27;
+  font-family: 'Hind', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+a:hover, a:focus {
+  color: #45B2E5;
+}
+
+p {
+  color: #969490;
+  font-weight: 300;
+}
+
+hr {
+  width: 50px;
+  border: 1px solid #EEEAE3;
+  border-radius: 2px;
+  margin: 5em 0 3em;
+}
+
+input[type="email"] {
+  width: 380px;
+  background: rgba(238,234,227,0.20);
+  border: 1px solid #EEEAE3;
+  border-radius: 2px;
+  color: #091C27;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: #969490;
+  font-weight: 300;
+}
+
+input[type="email"]::-moz-placeholder {
+  color: #969490;
+  font-weight: 300;
+}
+
+button {
+  background-color: #A5AEF6;
+  width: 380px;
+  letter-spacing: 0.03em;
+}
+
+form {
+  margin-top: 2em;
+}
+
+.card {
+  background: url(/images/app@2x.png) no-repeat right bottom, #FFF;
+  background-size: 50%;
+  border-radius: 12px;
+  margin: 3em auto;
+  padding: 5em;
+  box-shadow: 6px 12px 40px 0 rgba(0,0,0,0.12);
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 100%;
+    background: #FFF;
+    padding: 2em 1em;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+.logo {
+  height: 40px;
+  margin-bottom: 1.5em;
+}
+
+.card p {
+  max-width: 380px;
+}
+
+.quote {
+  color: #091C27;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 5em auto;
+}

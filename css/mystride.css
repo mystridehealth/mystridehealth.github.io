@@ -190,3 +190,13 @@ form {
   font-size: 0.9em;
   margin: 1em auto 4em;
 }
+
+.legal {
+  margin: 2em auto;
+  max-width: 800px !important;
+  color: #091C27;
+}
+
+.legal h2 {
+  font-size: 2.5rem;
+}

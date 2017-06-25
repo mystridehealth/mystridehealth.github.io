@@ -194,7 +194,7 @@ form {
 .legal {
   margin: 2em auto;
   max-width: 800px !important;
-  color: #091C27;
+  color: #091C27 !important;
 }
 
 .legal h2 {
